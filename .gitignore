@@ -9,3 +9,4 @@ npm-debug.*
 .expo-source/
 android/
 ios/
+temp-android-directory/

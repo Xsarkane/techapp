@@ -1,29 +1,26 @@
 {
   "expo": {
-    "name": "techapp",
-    "slug": "techapp",
-    "privacy": "public",
-    "sdkVersion": "32.0.0",
-    "platforms": [
-      "ios",
-      "android"
-    ],
-    "version": "1.0.0",
-    "orientation": "portrait",
+    "name": "Techapp",
     "icon": "./assets/icon.png",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
-    "updates": {
-      "fallbackToCacheTimeout": 0
-    },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "version": "1.0.0",
+    "slug": "techapp",
+    "sdkVersion": "31.0.0",
     "ios": {
-      "supportsTablet": true
-    }
+      "bundleIdentifier": "com.techcorp.techapp"
+    },
+    "android": {
+      "package": "com.techcorp.techapp",
+      "publishBundlePath": "android/app/src/main/assets/shell-app.bundle",
+      "publishManifestPath": "android/app/src/main/assets/shell-app-manifest.json"
+    },
+    "platforms": [
+      "android",
+      "ios"
+    ],
+    "isDetached": true,
+    "detach": {
+      "androidExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/android-v2.9.2-sdk31.0.0-d1776f37-d524-4fee-872d-6807b0fd83ff.tar.gz"
+    },
+    "scheme": "expce460bcea3754670a82e1cebf4f73d50"
   }
 }
